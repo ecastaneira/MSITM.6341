@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block title %}Home{% endblock %}
+
+{% block heading %}Welcome to our Product Store{% endblock %}
+
+{% block content %}
+    <p>This is a simple Flask application with templates.</p>
+    <p>We have {{ product_count }} products in our store.</p>
+    <p><a href="/products">View all products</a></p>
+{% endblock %}
